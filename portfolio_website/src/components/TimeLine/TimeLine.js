@@ -61,22 +61,16 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="timeline">
+    <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         <p>
-          I am a full stack web developer with a passion for creating beautiful,
-          responsive, and intuitive user experiences. I have experience with a
-          wide range of technologies, from back-end to front-end.
-        </p>
-        <p>
-          I have a background in business management and have worked with a wide
-          variety of clients, from small businesses to large corporations.
-        </p>
-        <p>
-          I am currently looking for a position in the web development industry
-          where I can utilize my skills and experience to create a unique and
-          impactful product.
+          I am a full stack web developer with a passion for creating
+          beautiful,responsive, and intuitive user experiences. I have
+          experience with a wide range of technologies, from back-end to
+          front-end. I am currently looking for a position in the web
+          development industry where I can utilize my skills and experience to
+          create a unique and impactful product.
         </p>
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

@@ -1,11 +1,15 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { AiOutlineCloudServer } from "react-icons/ai";
+import { CgWebsite } from "react-icons/cg";
+
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
+
 import {
   List,
   ListContainer,
@@ -19,9 +23,9 @@ const Technologies = () => (
     <SectionDivider />
     <SectionTitle main>Technologies</SectionTitle>
     <SectionText>
-      I ahve worked with a rage of Technologies in the web development world
-      from back-end to Front-end. I have experience with the following
-      technologies: React, NodeJS, JavaScript, HTML, CSS
+      I have worked with a range of Technologies in the web development world
+      from back-end to front-end. I have experience with the following
+      technologies: HTML, CSS, JavaScript, React,js, Node.js, MongoDB, MySQL
     </SectionText>
     <List>
       <ListItem>
@@ -40,17 +44,27 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.Js and Databases
+            Node.js and MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem" />
+        <CgWebsite size="3rem" />
         <ListContainer>
           <ListTitle>UI</ListTitle>
           <ListParagraph>
             Experience with <br />
             Figma
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <AiOutlineCloudServer size="3rem" />
+        <ListContainer>
+          <ListTitle>Cloud</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            AWS & Cloud Deployment
           </ListParagraph>
         </ListContainer>
       </ListItem>

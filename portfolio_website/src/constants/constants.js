@@ -42,9 +42,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded Startup" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own projects" },
+  { year: 2018, text: "Started my web development journey" },
+  { year: 2019, text: "Worked as a freelance developer" },
+  { year: 2020, text: "Founded Startup" },
+  { year: 2021, text: "Began MERN Stack Projects" },
+  { year: 2022, text: "Full-Stack web projects" },
 ];
